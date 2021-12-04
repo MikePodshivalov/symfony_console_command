@@ -1,0 +1,17 @@
+{
+    "name": "mike/module1",
+    "authors": [
+        {
+            "name": "Mike",
+            "email": "mike@example.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": ["src"]
+        }
+    }
+}
